@@ -37,12 +37,12 @@ def buildform(name, email, uerror, perror, eerror):
         </tr>
         <tr>
         <th>Password</th>
-        <td><input name="password" /></td>
+        <td><input name="password" type="password"/></td>
         <td class="error" style="color:red;"></td>
         </tr>
         <tr>
         <th>Verify Password</th>
-        <td><input name="verify" /></td>
+        <td><input name="verify" type="password"/></td>
         <td class="error" style="color:red;">%(perror)s</td>
         </tr>
         <tr>
